@@ -15,6 +15,7 @@ public class TestController {
     private JdbcTemplate jdbcTemplate;
 
     @RequestMapping("/getUsers")
+
     public List<Map<String, Object>> getDbType(){
         String sql = "select * from person";
         List<Map<String, Object>> list =  jdbcTemplate.queryForList(sql);

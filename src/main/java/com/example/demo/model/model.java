@@ -1,8 +1,5 @@
 package com.example.demo.model;
 
-
-
-
 public class model {
     public String getName() {
         return name;

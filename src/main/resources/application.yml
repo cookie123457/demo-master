@@ -5,7 +5,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-      url: jdbc:sqlserver://localhost:1433;databaseName=test
+      url: jdbc:sqlserver://10.69.22.48:1433;databaseName=test
       username: sa
       password: sa123456
       filters: stat

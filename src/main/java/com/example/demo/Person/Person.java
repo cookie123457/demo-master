@@ -30,6 +30,7 @@ public class Person {
     private int name;
 
     public Person(){}
+
     public Person(int id,int oid,int name){
         this.oid=oid;
         this.id=id;

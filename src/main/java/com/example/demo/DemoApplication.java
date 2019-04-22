@@ -44,7 +44,6 @@ public class DemoApplication {
 	}
 
 
-
 	@RequestMapping(value = "/params", params = {"name=admin"})
 	public String getParams(@RequestParam("name") String name) {
 		return "login type " + name;
