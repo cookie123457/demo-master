@@ -19,4 +19,8 @@
     <insert id="insert" parameterType="com.example.demo.model.Model">
         insert into person values(#{id},#{oid},#{name})
     </insert>
+
+    <select id="proc">
+        exec createTable
+    </select>
 </mapper>

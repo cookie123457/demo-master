@@ -13,4 +13,5 @@ public interface PersonMapper {
     public int countAll(int id);
     public List selectAll();
     public int insert(Model model);//类型约束
+    public void proc();
 }

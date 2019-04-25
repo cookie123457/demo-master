@@ -44,7 +44,10 @@ public class PersonController {
     }
 
 
-
+    @RequestMapping(value ="proc")
+    public void responseSec(){
+        personMapper.proc();
+    }
 
 }
 
